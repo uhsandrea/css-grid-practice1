@@ -1,0 +1,90 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-rows: 14vh;
+  grid-auto-rows: 43vh;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 25px;
+  text-align: center;
+}
+
+div > span {
+  line-height: 1.2;
+  font-size: 18px;
+}
+
+div > span:last-child {
+  font-size: 11px;
+}
+
+div:nth-child(1) {
+  grid-column: 1 / -1;
+  font-size: 5vw;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0;
+}
+
+div:nth-child(2) {
+  background-color: #c0bda7;
+}
+
+div:nth-child(3) {
+  background: url(https://images.unsplash.com/photo-1541498355002-4ee81a1872ae?ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8c2xvd3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60);
+  background-size: 100% 100%;
+}
+
+div:nth-child(4) {
+  background-color: #fe4816;
+}
+
+div:nth-child(5) {
+  background: url(https://images.unsplash.com/photo-1600087365445-df323506a67e?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDl8cm5TS0RId3dZVWt8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60);
+  background-size: 100% 100%;
+}
+
+div:nth-child(6) {
+  background-color: #847f96;
+}
+
+div:nth-child(7) {
+  background-color: #d1ff71;
+}
+
+div:nth-child(8) {
+  background-color: #993434;
+}
+
+div:nth-child(9) {
+  background-color: #39aaf9;
+}
+
+div:nth-child(10) {
+  background: url(https://images.unsplash.com/photo-1559313946-f6f48bfe5be8?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDIwfGhtZW52UWhVbXhNfHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60);
+  background-size: 100% 100%;
+}
+
+div:nth-child(11) {
+  background-color: #41907a;
+}
+
+div:nth-child(12) {
+  background: url(https://images.unsplash.com/photo-1487147264018-f937fba0c817?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=668&q=80);
+  background-size: 100% 100%;
+}
+
+div:nth-child(13) {
+  background-color: #e4c4e5;
+}
